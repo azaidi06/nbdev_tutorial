@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "card.html",
+    "href": "card.html",
+    "title": "CARD: basic playing card",
+    "section": "",
+    "text": "Card\n\n Card (suit=0, rank=2)\n\nRepresents a standard playing card.\n\ntest_eq(Card(), Card()) #check that the cards are the same\ntest_ne(Card(), Card(1,1)) #test that cards are not the same\nCard(), Card(1,1) #show the cards being used\n\n(2 of ♣️, A of ♦️)\n\n\n\n#test_eq(Card(), Card(1,1))\n\nThese are the basic building blocks for our Deck class"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev cards",
+    "section": "",
+    "text": "A demo of nbdev (https://nbdev.fast.ai/tutorial.html#edit-index.ipynb)"
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev cards",
+    "section": "Install",
+    "text": "Install\npip install -e ."
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev cards",
+    "section": "How to use",
+    "text": "How to use\nThis library provides a card class for you to create, display and compare playing cards\n\nCard(), Card(1,1)\n\n(2 of ♣️, A of ♦️)\n\n\n\nsuits\n\n['♣️', '♦️', '❤️', '♠️']"
+  },
+  {
+    "objectID": "deck.html",
+    "href": "deck.html",
+    "title": "Deck",
+    "section": "",
+    "text": "Deck\n\n Deck ()\n\nRepresents a deck of cards\n\ntest_eq(len(Deck()), 52)\n\n\nCard(1,1) in Deck()\n\nTrue\n\n\na deck has a Card"
+  }
+]
